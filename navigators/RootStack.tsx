@@ -27,6 +27,13 @@ export type RootStackParamList = {
 
 const Stack = createStackNavigator<RootStackParamList>();
 
+/*
+    The RootStack componnent returns a 'NavigationContainer' that wraps the stack
+    navigator, defining 3 main screens
+    1. Welcome
+    2. Home
+    3. Balance
+*/
 const RootStack: FunctionComponent = () => {
     return (<NavigationContainer>
         <Stack.Navigator screenOptions={{

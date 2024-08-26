@@ -1,3 +1,4 @@
+// important colors used in this project
 export const colors = {
     white: "#fff",
     primary: "#ef835d",
